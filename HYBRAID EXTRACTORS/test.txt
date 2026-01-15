@@ -1,0 +1,74 @@
+In the quiet town of Rawalpindi, Ahmed logged into his new online account using the password StrongPass@2024. 
+He was excited because he had finally fixed the issue with his email address ahmed.khan92@gmail.com which had been bouncing messages back. 
+His colleague Sara, who could be reached at sara_saleem123@company.org, told him that sometimes filters at mail.company.org block unknown senders. 
+They both were preparing for the tech expo happening on 2025-11-15, though Sara still used the date format 15/11/2025 on her reports.
+
+Meanwhile, their project’s development server was running at 192.168.1.45, and the backup IPv6 server address was fe80::a00:27ff:fe94:44d5. 
+Another redundant address, 2001:0db8:85a3:0000:0000:8a2e:0370:7334, was reserved for system tests. 
+Ahmed had to send some logs to the server https://techsystem.pk/logs. 
+For verification, he also visited http://intranet.company.org:8080/dashboard and ftp://backup.techdata.net/files to upload encrypted data.
+
+Sara’s CNIC was 35202-1234567-9, while Ahmed’s CNIC 61101 9876543 2 was still under verification. 
+When filling out HR forms, Ahmed accidentally typed 35202_9999999_8 instead. 
+The HR officer, however, only accepted Pakistani numbers like 0300-1234567 or +92 321 9876543 for emergency contacts, while older entries like (042)1234567 were no longer valid formats. 
+Sara mentioned that her temporary SIM number (0321)7654321 would also reach her if needed.
+
+In one of their test documents, the quality assurance team added hundreds of fake credentials for stress testing. 
+Emails such as test.user@sample.pk, random.person@abc.edu.pk, beta.user@domain.co.uk, and hidden.name@xyz.com were mixed throughout the data set. 
+Password samples ranged from Weak123 to Complex@Pass2023! and Secure#Login88. 
+These passwords were tested against validation regex ensuring that each contained at least one uppercase, one lowercase, one digit, and one special character. 
+One intern even added passwords like p@ssWORD99!, Admin@Access1, and test@Case#22 for fun.
+
+A separate spreadsheet included URLs of testing services:
+https://example.pk, https://example.com/help?lang=en, 
+http://support.site.net/docs, and https://www.fake-site.org/page?id=90210. 
+A few intranet-only URLs looked like http://10.10.10.1:3000/login or http://192.168.100.23/home.html. 
+When they exported the Excel file, some URLs merged with IPs, like 172.16.0.1docs which made validation tricky.
+
+Sara was also asked to review logs generated on 2023-02-28 and 2024-09-01, as well as daily updates labeled 01/02/2024 through 15/02/2024. 
+Ahmed found an old entry 2019-12-31 in the backup CSV and noticed one malformed date 2022-13-45, which should have failed validation.
+
+In their unit tests, they randomly generated 5000 strings mixing everything — CNIC 37406-9876543-1, email demo@abc.pk, password Valid@1234, phone (0301)5556677, 
+URL https://localhost/test, IPv4 10.0.0.255, and IPv6 fe80::1ff:fe23:4567:890a. 
+The QA document explained that all formats should pass validation except for clearly malformed entries like someone@domain, 999.999.999.999, or fe80:::1.
+
+As testing continued, the team inserted sample narratives to simulate natural text, such as:
+“The user registered on 2024-10-12, confirmed via link https://verify.example.com, and received a call from +92 300 1234567 to verify CNIC 42301-1111111-5.”
+They used random paragraphs to test pattern recognition within large bodies of text. 
+For example, the next section might include mentions like user@website.pk or https://another-domain.com/login that were scattered between long sentences describing fictional events. 
+They also added logs containing IPs such as 8.8.8.8, 192.0.2.123, and 203.0.113.255, followed by IPv6 addresses like 2001:4860:4860::8888 and fe80::204:61ff:fe9d:f156.
+
+In another test run, 15/10/2024 appeared in five places, mixed with non-date text such as “Order confirmed on 14/09/2025, payment processed on 2025-10-01.” 
+A new trainee mistakenly typed passwords like Abcd1234 (missing a special character), while others used Pass@Word99, User$Secure7, or Login@2025!. 
+Their database logs captured every attempt, including login.email@secure.co.pk and admin_contact@server.net.
+
+One section of the data simulated social media posts:
+“Follow us at https://social.example.com or email team@social.pk for more info.”
+It also contained comments with Pakistani phone formats like +92(333)8765432, 0315-1234567, and 0344 7654321. 
+An old message even contained the deprecated number 092-3001234567. 
+Later, Sara added IPv4 logs 192.168.43.1, 172.20.10.2, and IPv6 fe80::b1af:22c4:7d8f:9911 for internal debugging.
+
+As reports grew large, Ahmed tested performance on random 500-line text, ensuring each regex pattern could handle dense data without false positives. 
+His code correctly ignored words like “passwordless”, “emailing”, or “calling” but still matched Strong@Pass1 and valid@example.com. 
+URLs like https://www.sample-site.pk?query=data and ftp://old.server.pk/archive.zip were also captured correctly.
+
+To simulate noise, fake company names and random filler text were added:
+“PakData Systems has operated since 2008, with networks spanning 192.168.5.1 to 192.168.5.255. 
+Employees contact through intranet.pakdata.pk using addresses like it.support@pakdata.pk and hr.team@pakdata.pk.”
+Fake CNIC examples included 37405-8888888-8, 61101-9999999-9, and 42301-3333333-3. 
+Testing logs even mentioned 03xx-xxxxxxx placeholders to ensure non-matches are skipped properly.
+
+Ahmed created an additional dummy list of passwords: Try@Again1, Reset#Pwd22, Welcome@Home7, Secure!Code4, and Random@123A. 
+He embedded them between paragraphs so regex tests could locate them mid-sentence. 
+Dates like 2025-05-05 and 06/06/2025 appeared beside IPv4 203.45.123.10 and IPv6 fe80::1234:abcd:5678:90ef to test sequential scanning.
+
+By the time the text reached 1200 words, Ahmed decided to fill in the last section with completely random filler sentences to meet the word count.
+Each line contained a variety of symbols and characters but occasionally hid a valid piece of data such as:
+email hidden_user@data.net, date 2023-03-03, password Alpha@1Test, IP 10.10.1.1, or CNIC 37406-6543210-8.
+Sometimes the filler contained multiple matches: 2022-12-12 user@abc.pk 0300-1122334 https://abc.pk/test Secure#Key9 192.168.0.10 fe80::abcd.
+This created a dense dataset that allowed testing of overlapping pattern detection.
+
+By 2025-10-23, the test document had grown to over fifteen hundred words, including every type of data expected in the regex patterns. 
+Ahmed smiled, saved the final file test_data.txt, and confirmed that every pattern—from CNIC to IPv6—appeared at least once. 
+Now, when the GUI tool loads this file, it can accurately extract all emails, phone numbers, CNICs, URLs, dates, passwords, and IP addresses using the correct regular expressions. 
+It was the perfect synthetic dataset for verifying regex-based data extraction across multiple file formats, designed specifically to push every pattern to its limits while remaining fully realistic for Pakistan-based datasets.
